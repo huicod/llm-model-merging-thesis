@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Model and training artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoint-*/
+checkpoints/
+output/
+outputs/
+exported_lora/
+merged_model/
+tokenizer_*/
+
+# Data and benchmark files
+data/
+dataset/
+datasets/
+*.jsonl
+*.parquet
+
+# Logs and evaluation outputs
+logs/
+runs/
+results/
+lmeval_result*/
+qwen_finetune_log/
+events.out.tfevents.*
+*.log
+
+# Generated figures
+figures/
+picture/
+*.png
+*.jpg
+*.jpeg
+
+# External code snapshots from the original workspace
+RankMean-main/
+RankMean/
+project_editor/
+server_code_data/
+llm_data/
+other_data/
+small_llm/
+
+# Duplicate local draft files that are not part of this cleaned release
+configs/export-lora-template.yaml
+configs/qwen2-1.5b-code-lora.yaml
+configs/qwen2-1.5b-mathinstruct-22k-lora.yaml
+configs/qwen2-1.5b-sciq-lora.yaml
+docs/publication_filter.md
+scripts/analyze_layer_changes.py
+scripts/eval_models.sh
+scripts/export_lora.sh
+scripts/merge_all.sh
+scripts/train_all.sh

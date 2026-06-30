@@ -1,0 +1,9 @@
+model_name_or_path: /path/to/models/Qwen2-1.5B
+adapter_name_or_path: /path/to/outputs/qwen1.5b_code_lora/checkpoint-600
+template: qwen
+finetuning_type: lora
+
+export_dir: /path/to/exported/qwen1.5b_code_checkpoint600
+export_size: 1
+export_device: cpu
+export_legacy_format: false

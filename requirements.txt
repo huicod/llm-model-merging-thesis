@@ -1,0 +1,12 @@
+torch
+transformers
+peft
+accelerate
+datasets
+llamafactory
+lm-eval
+pandas
+pyarrow
+matplotlib
+numpy
+safetensors
